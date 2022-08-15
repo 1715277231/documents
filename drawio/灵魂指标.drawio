@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T06:32:58.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="AZIA2XhESfji6Nsb4IlR" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T06:57:22.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="H4150CcsCH48_tJWPMyl" version="20.2.3" type="github" pages="2">
   <diagram id="ZixIut9k-mKDCpOTJ_UP" name="灵魂指标接入触达引擎">
     <mxGraphModel dx="1038" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,98 @@
             <mxPoint x="350" y="190" as="sourcePoint" />
             <mxPoint x="400" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8mPegXc8hpkPXTKncRv_" name="外部系统间关系">
+    <mxGraphModel dx="1438" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8AqXKe1TnzIzllGAPTib-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="70" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="190" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-3" value="货源上架MQ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-4" value="司机召回" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="230" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-5" value="打分过滤" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-6" value="业务频控" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="480" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-8" value="场景接入" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-9" value="调度频控" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-10" value="货源PUSH" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="160" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-75" y="150" as="sourcePoint" />
+            <mxPoint x="-75.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-13" value="match-engine-hybrid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-14" value="公共服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-15" value="gtr-hybrid" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="130" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="314.5" as="sourcePoint" />
+            <mxPoint x="129" y="314.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="51" y="414.5" as="sourcePoint" />
+            <mxPoint x="131" y="414.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-75.5" y="440" as="sourcePoint" />
+            <mxPoint x="-75" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=13;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="480" as="sourcePoint" />
+            <mxPoint x="219.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-22" value="货源服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-24" value="cargo-notify" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8AqXKe1TnzIzllGAPTib-25" value="触达引擎" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="480" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
