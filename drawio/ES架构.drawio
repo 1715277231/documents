@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="4">
   <diagram name="第 1 页" id="NcM-KPUOSiEIslDwOv7z">
     <mxGraphModel dx="2866" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,6 +263,58 @@
         </mxCell>
         <mxCell id="hUkBHmyU31tKuF2Mvk2b-47" value="版本冲突写入失败，直接丢弃" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-440" y="930" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1UHFJrEZpcMNtvRnG2m5" name="第 4 页">
+    <mxGraphModel dx="2466" dy="1189" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-1" value="业务应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="120" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wkfCadVF5Tizm8qyM0XL-1">
+          <mxGeometry x="60" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wkfCadVF5Tizm8qyM0XL-1">
+          <mxGeometry x="60" y="220" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-15" value="业务处理" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="wkfCadVF5Tizm8qyM0XL-14" parent="wkfCadVF5Tizm8qyM0XL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-2" value="database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wkfCadVF5Tizm8qyM0XL-2">
+          <mxGeometry x="50" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wkfCadVF5Tizm8qyM0XL-2">
+          <mxGeometry x="50" y="220" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-7" value="通过ID查询数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="wkfCadVF5Tizm8qyM0XL-6" parent="1" source="wkfCadVF5Tizm8qyM0XL-12">
+          <mxGeometry y="15" relative="1" as="geometry">
+            <mxPoint x="140" y="205" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" source="wkfCadVF5Tizm8qyM0XL-6" parent="1" target="wkfCadVF5Tizm8qyM0XL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkfCadVF5Tizm8qyM0XL-18" value="更新" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=-0.2;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wkfCadVF5Tizm8qyM0XL-14" target="wkfCadVF5Tizm8qyM0XL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-180" y="400" as="sourcePoint" />
+            <mxPoint x="-100" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
